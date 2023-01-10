@@ -1,6 +1,32 @@
 # ScrambleBot
 Discord bot that creates random presentation orders for voice channels
 
+## Building the project
+
+### Set up virtualenv
+```
+python3 -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+```
+
+### Create secrets file
+``` 
+vim .env
+```
+
+Contents:
+```
+BOT_TOKEN="<bot_token_here>"
+```
+
+### Run the bot
+```
+python3 scramble.py
+```
+
+## Virtualenv Cheatsheet
+
 ### Install virtualenv
 ```
 pip install virtualenv
